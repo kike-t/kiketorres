@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pastor Kike Torres — Invítalo a predicar en tu iglesia o conferencia</title>
+
+<!-- ══════════════════════════════════════════════
+     SEO — CONFIGURAR ANTES DE PUBLICAR
+     Reemplaza la URL del canonical y og:url con
+     la URL real de esta página (ej: https://speaker.cristoesmejor.com/)
+     ══════════════════════════════════════════════ -->
+<!-- <link rel="canonical" href="https://TU-URL-REAL.com/"> -->
+<meta name="description" content="Invita al pastor Kike Torres a predicar en conferencias, retiros, iglesias y eventos pastorales. Consejero bíblico certificado ACBC, autor y pastor de Horizonte Querétaro.">
+<meta name="theme-color" content="#E01B16">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pastor Kike Torres — Invítalo a predicar">
+<meta property="og:description" content="Invita al pastor Kike Torres a predicar en conferencias, retiros, iglesias y eventos pastorales. Consejero bíblico certificado ACBC, autor y pastor de Horizonte Querétaro.">
+<meta property="og:image" content="https://horizonte.cristoesmejor.com/wp-content/uploads/2023/10/kike1.jpg">
+<!-- <meta property="og:url" content="https://TU-URL-REAL.com/"> -->
+<meta property="og:site_name" content="Pastor Kike Torres">
+<meta property="og:locale" content="es_MX">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pastor Kike Torres — Invítalo a predicar">
+<meta name="twitter:description" content="Invita al pastor Kike Torres a predicar en conferencias, retiros, iglesias y eventos pastorales.">
+<meta name="twitter:image" content="https://horizonte.cristoesmejor.com/wp-content/uploads/2023/10/kike1.jpg">
+<meta name="twitter:site" content="@pastorreskike">
+
+<!-- Preload hero image -->
+<link rel="preload" as="image" href="https://horizonte.cristoesmejor.com/wp-content/uploads/2023/10/kike1.jpg">
+
+<!-- Schema JSON-LD — actualizar url con la URL real antes de publicar -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Enrique Kike Torres",
+  "jobTitle": "Pastor, Biblical Counselor, Author",
+  "image": "https://horizonte.cristoesmejor.com/wp-content/uploads/2023/10/kike1.jpg",
+  "affiliation": [
+    {"@type": "Organization", "name": "Iglesia Horizonte Querétaro"},
+    {"@type": "Organization", "name": "Cristo es Mejor"},
+    {"@type": "Organization", "name": "Con Tu Consejo"}
+  ],
+  "sameAs": [
+    "https://www.instagram.com/pastorreskike/",
+    "https://www.facebook.com/pastorreskike",
+    "https://www.youtube.com/@HorizonteCristoesmejor",
+    "https://www.tiktok.com/@pastorreskike",
+    "https://twitter.com/pastorreskike"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --red:#E01B16;--red-dark:#B51310;
+  --blue:#1B4FD8;--blue-dark:#1340B0;
+  --white:#FFFFFF;--off:#F4F3F1;
+  --black:#0C0C0C;--black2:#161616;--black3:#1F1F1F;--gray:#2A2A2A;
+  --D:'Bebas Neue',Impact,sans-serif;
+  --B:'DM Sans',system-ui,sans-serif;
+  --I:'Playfair Display',Georgia,serif;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--B);background:var(--black);color:var(--white);overflow-x:hidden;}
+img{display:block;}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px;}
+
+/* ── NAV ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;height:62px;transition:background .3s;}
+nav.scrolled{background:rgba(12,12,12,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.05);}
+.nav-left{display:flex;align-items:center;gap:10px;}
+.nav-logo{height:30px;filter:brightness(10);opacity:.9;}
+.nav-name{font-family:var(--D);font-size:1.25rem;letter-spacing:.08em;color:var(--white);}
+.nav-links{display:flex;gap:2rem;list-style:none;}
+.nav-links a{font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.65);text-decoration:none;transition:color .2s;}
+.nav-links a:hover{color:var(--white);}
+.nav-cta{background:var(--red)!important;color:var(--white)!important;padding:.42rem 1.1rem;}
+.nav-cta:hover{background:var(--red-dark)!important;}
+/* hamburger */
+.nav-hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px;margin-left:auto;}
+.nav-hamburger span{display:block;width:22px;height:2px;background:var(--white);transition:all .25s;}
+.nav-hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.nav-hamburger.open span:nth-child(2){opacity:0;}
+.nav-hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.nav-mobile-menu{display:none;position:fixed;top:62px;left:0;right:0;background:rgba(12,12,12,.98);border-bottom:1px solid rgba(255,255,255,.06);padding:1.25rem 5vw 1.5rem;flex-direction:column;gap:.75rem;z-index:199;}
+.nav-mobile-menu.open{display:flex;}
+.nav-mobile-menu a{font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.6);text-decoration:none;padding:.45rem 0;border-bottom:1px solid rgba(255,255,255,.05);}
+.nav-mobile-menu a:last-child{background:var(--red);color:var(--white);text-align:center;padding:.65rem;border-bottom:none;margin-top:.25rem;}
+
+/* ── HERO ── */
+.hero{position:relative;height:100vh;min-height:620px;display:flex;align-items:flex-end;overflow:hidden;}
+.hero-bg{position:absolute;inset:0;z-index:0;}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center top;filter:grayscale(15%);}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(12,12,12,.92) 45%,rgba(12,12,12,.35) 100%),linear-gradient(to top,rgba(12,12,12,.75) 25%,transparent 60%);}
+.hero-content{position:relative;z-index:2;padding:0 5vw 7vh;max-width:1400px;margin:0 auto;width:100%;}
+.hero-eyebrow{font-size:.68rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--red);display:flex;align-items:center;gap:.7rem;margin-bottom:1.1rem;}
+.hero-eyebrow::before{content:'';width:24px;height:2px;background:var(--red);}
+.hero-h1{font-family:var(--D);font-size:clamp(4.5rem,10vw,10rem);line-height:.85;letter-spacing:.02em;color:var(--white);margin-bottom:.15em;}
+.hero-h1 .red{color:var(--red);}
+.hero-tagline{font-family:var(--I);font-style:italic;font-size:clamp(1rem,1.8vw,1.3rem);color:rgba(255,255,255,.85);max-width:48ch;line-height:1.65;margin-bottom:2rem;}
+.hero-pills{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:2.2rem;}
+.pill{font-size:.63rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;border:1px solid rgba(255,255,255,.25);color:rgba(255,255,255,.75);padding:.28rem .75rem;}
+.hero-btns{display:flex;gap:.75rem;flex-wrap:wrap;}
+.btn-r{background:var(--red);color:var(--white);border:2px solid var(--red);padding:.88rem 2rem;font-family:var(--B);font-size:.76rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;display:inline-block;transition:background .2s;cursor:pointer;}
+.btn-r:hover{background:var(--red-dark);border-color:var(--red-dark);}
+.btn-o{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,.4);padding:.88rem 2rem;font-family:var(--B);font-size:.76rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;display:inline-block;transition:all .2s;cursor:pointer;}
+.btn-o:hover{border-color:var(--white);background:rgba(255,255,255,.06);}
+.hero-scroll{position:absolute;right:5vw;bottom:40px;z-index:2;display:flex;flex-direction:column;align-items:center;gap:.5rem;}
+.scroll-line{width:1px;height:48px;background:linear-gradient(to bottom,var(--red),transparent);animation:pulse 2s ease-in-out infinite;}
+.scroll-txt{font-size:.6rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.45);}
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+.hero-stats{position:absolute;bottom:0;right:0;z-index:3;display:flex;}
+.hstat{background:var(--red);padding:1.1rem 2rem;display:flex;flex-direction:column;gap:.2rem;border-left:1px solid rgba(255,255,255,.1);}
+.hstat:first-child{background:var(--blue);}
+.hstat-n{font-family:var(--D);font-size:2rem;line-height:1;color:var(--white);}
+.hstat-l{font-size:.6rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.75);}
+
+/* mobile sticky CTA */
+.sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:150;background:var(--red);color:var(--white);text-align:center;padding:.9rem;font-family:var(--B);font-size:.78rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;border-top:2px solid var(--red-dark);}
+
+/* ── TICKER ── */
+.ticker{background:var(--red);padding:.55rem 0;overflow:hidden;}
+.ticker-track{display:flex;white-space:nowrap;animation:tick 22s linear infinite;}
+.tick-item{font-family:var(--D);font-size:1rem;letter-spacing:.1em;color:var(--white);padding:0 2rem;}
+.tick-dot{color:rgba(255,255,255,.5);padding:0;}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ── CREDENCIALES ── */
+.creds{padding:80px 5vw;max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:center;}
+.sec-label{font-size:.67rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--red);}
+.creds-title{font-family:var(--D);font-size:clamp(2.8rem,5vw,5rem);line-height:.88;letter-spacing:.02em;color:var(--white);margin:.4rem 0 1.5rem;}
+.creds-title .bl{color:var(--blue);}
+.creds-title .out{-webkit-text-stroke:1.5px rgba(255,255,255,.7);color:transparent;}
+.creds-body{font-size:.95rem;color:rgba(255,255,255,.8);line-height:1.85;max-width:46ch;}
+.creds-body em{font-style:italic;color:rgba(255,255,255,.95);}
+.creds-quote{margin-top:2rem;border-left:3px solid var(--red);padding-left:1.1rem;}
+.creds-quote p{font-family:var(--I);font-style:italic;font-size:1rem;color:rgba(255,255,255,.7);line-height:1.65;}
+.creds-llamado{margin-top:1.5rem;}
+.llamado-title{font-size:.62rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--red);margin-bottom:.65rem;}
+.llamado-list{list-style:none;display:flex;flex-direction:column;gap:.45rem;}
+.llamado-list li{font-size:.85rem;color:rgba(255,255,255,.65);line-height:1.5;display:flex;gap:.6rem;}
+.llamado-list li::before{content:'→';color:var(--red);flex-shrink:0;font-size:.75rem;margin-top:.1em;}
+.creds-right{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(255,255,255,.07);}
+.cred-box{background:var(--black2);padding:1.75rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;}
+.cred-box.blue{background:var(--blue);}
+.cred-box.red{background:var(--red);}
+.cred-n{font-family:var(--D);font-size:2.8rem;line-height:1;color:var(--white);}
+.cred-l{font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.7);}
+
+/* ── VIDEO ── */
+.video-section{padding:100px 5vw;max-width:1400px;margin:0 auto;}
+.vid-hdr{margin-bottom:40px;}
+.vid-h{font-family:var(--D);font-size:clamp(2.5rem,4.5vw,4rem);line-height:.9;letter-spacing:.02em;color:var(--white);margin:.4rem 0 0;}
+.vid-h .red{color:var(--red);}
+.vid-embed-wrap{position:relative;width:100%;aspect-ratio:16/9;background:var(--black2);border:1px solid rgba(255,255,255,.07);overflow:hidden;}
+.vid-embed-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:none;}
+.vid-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;color:rgba(255,255,255,.35);}
+.vid-play{width:64px;height:64px;border:2px solid rgba(255,255,255,.2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;}
+.vid-placeholder p{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;}
+.vid-cta{margin-top:1.5rem;}
+
+/* ── TESTIMONIOS ── */
+.testimonios{background:var(--black2);padding:100px 5vw;border-top:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05);}
+.test-inner{max-width:1400px;margin:0 auto;}
+.test-hdr{margin-bottom:52px;}
+.test-h{font-family:var(--D);font-size:clamp(2.5rem,4.5vw,4rem);line-height:.9;letter-spacing:.02em;color:var(--white);margin:.4rem 0 0;}
+.test-h .red{color:var(--red);}
+.test-pending{font-size:.85rem;color:rgba(255,255,255,.45);font-style:italic;margin-top:1.5rem;font-family:var(--I);border-left:2px solid rgba(255,255,255,.1);padding-left:1rem;}
+/* cuando haya testimonios reales, quitar .test-pending y descomentar .test-grid */
+.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.06);margin-top:2rem;}
+.test-card{background:var(--black2);padding:2.25rem 1.75rem;display:flex;flex-direction:column;gap:1rem;}
+.test-quote-mark{font-family:var(--D);font-size:4rem;line-height:.6;color:var(--red);opacity:.4;}
+.test-body{font-family:var(--I);font-style:italic;font-size:.97rem;color:rgba(255,255,255,.8);line-height:1.75;flex:1;}
+.test-author{border-top:1px solid rgba(255,255,255,.07);padding-top:.9rem;display:flex;flex-direction:column;gap:.2rem;}
+.test-name{font-size:.82rem;font-weight:600;color:rgba(255,255,255,.9);}
+.test-role{font-size:.72rem;color:rgba(255,255,255,.5);letter-spacing:.04em;}
+
+/* ── MINISTERIOS STRIP ── */
+.min-strip{background:var(--black2);border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06);}
+.min-strip-inner{max-width:1400px;margin:0 auto;padding:0 5vw;display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:rgba(255,255,255,.06);}
+.min-item{background:var(--black2);padding:1.5rem 1.25rem;display:flex;flex-direction:column;gap:.5rem;text-decoration:none;transition:background .2s;border-top:2px solid transparent;}
+.min-item:hover,.min-item:focus-visible{background:var(--gray);border-top-color:var(--red);}
+.min-n{font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--red);}
+.min-name{font-family:var(--D);font-size:.95rem;letter-spacing:.04em;color:var(--white);line-height:1.1;}
+.min-arr{font-size:.65rem;color:rgba(255,255,255,.35);margin-top:auto;transition:color .2s;}
+.min-item:hover .min-arr,.min-item:focus-visible .min-arr{color:var(--red);}
+
+/* ── TEMAS ── */
+.temas{padding:100px 5vw;max-width:1400px;margin:0 auto;}
+.temas-hdr{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:end;margin-bottom:56px;}
+.temas-h{font-family:var(--D);font-size:clamp(3rem,5.5vw,5.5rem);line-height:.88;letter-spacing:.02em;color:var(--white);}
+.temas-h .red{color:var(--red);}
+.temas-h .out{-webkit-text-stroke:1.5px rgba(255,255,255,.7);color:transparent;}
+.temas-sub{font-size:.92rem;color:rgba(255,255,255,.65);line-height:1.8;}
+.sec-label-dk{font-size:.67rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--red);}
+.t-filters{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:32px;}
+.tf{font-family:var(--B);font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);background:transparent;border:1px solid rgba(255,255,255,.15);padding:.38rem .85rem;cursor:pointer;transition:all .2s;}
+.tf:hover,.tf.on{background:var(--red);color:var(--white);border-color:var(--red);}
+/* grid de 2 columnas para 4 temas — en CSS, no inline */
+.t-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;}
+.t-card{position:relative;aspect-ratio:4/5;overflow:hidden;cursor:pointer;background:var(--black3);}
+.t-card-bg{position:absolute;inset:0;background:var(--black3);transition:transform .5s;}
+.t-card:hover .t-card-bg,.t-card:focus-visible .t-card-bg{transform:scale(1.04);}
+.t-card[data-cat="liderazgo"] .t-card-bg{background:linear-gradient(135deg,#0a0a0a 0%,#E01B16 100%);}
+.t-card[data-cat="formacion"] .t-card-bg{background:linear-gradient(135deg,#0d1a3a 0%,#1B4FD8 100%);}
+.t-card[data-cat="crisis"] .t-card-bg{background:linear-gradient(135deg,#0a0a0a 0%,#3A5A7C 100%);}
+.t-card[data-cat="legado"] .t-card-bg{background:linear-gradient(135deg,#1a1200 0%,#7C5A3A 100%);}
+.t-card-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.85) 40%,rgba(0,0,0,.1) 100%);}
+.t-card-content{position:absolute;inset:0;padding:1.5rem;display:flex;flex-direction:column;justify-content:flex-end;}
+.t-num{font-family:var(--D);font-size:.8rem;letter-spacing:.12em;color:rgba(255,255,255,.4);margin-bottom:auto;}
+.t-cat-tag{font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--white);background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:.2rem .55rem;align-self:flex-start;margin-bottom:.6rem;}
+.t-title{font-family:var(--D);font-size:1.35rem;letter-spacing:.03em;color:var(--white);line-height:1.1;margin-bottom:.4rem;}
+.t-verse{font-family:var(--I);font-style:italic;font-size:.75rem;color:rgba(255,255,255,.6);margin-bottom:.85rem;}
+.t-cta{font-size:.63rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.55);display:flex;align-items:center;gap:.4rem;transition:color .2s;}
+.t-card:hover .t-cta,.t-card:focus-visible .t-cta,.t-card.on .t-cta{color:var(--white);}
+.t-icon{width:18px;height:18px;border:1px solid currentColor;display:flex;align-items:center;justify-content:center;font-size:.75rem;flex-shrink:0;}
+.t-card.on .t-card-overlay{background:linear-gradient(to top,rgba(0,0,0,.95) 60%,rgba(0,0,0,.4) 100%);}
+.t-detail{grid-column:1/-1;background:var(--black2);border-top:3px solid var(--red);padding:2.5rem;display:none;}
+.t-detail.vis{display:block;}
+.td-grid{display:grid;grid-template-columns:260px 1fr;gap:3rem;align-items:start;}
+.td-title{font-family:var(--D);font-size:2rem;letter-spacing:.03em;color:var(--white);line-height:1.05;}
+.td-verse{font-family:var(--I);font-style:italic;font-size:.85rem;color:var(--blue);margin:.35rem 0 1.25rem;}
+.td-mi label{display:block;font-size:.58rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:.2rem;}
+.td-mi span{font-size:.82rem;color:rgba(255,255,255,.7);}
+.td-mi{margin-bottom:.9rem;}
+.td-close{margin-top:1.5rem;background:none;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.55);font-family:var(--B);font-size:.65rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.42rem .9rem;cursor:pointer;transition:all .2s;}
+.td-close:hover{border-color:var(--red);color:var(--red);}
+.td-desc{font-size:.92rem;color:rgba(255,255,255,.7);line-height:1.85;}
+.td-block{margin-bottom:1.5rem;}
+.td-block:last-child{margin-bottom:0;}
+.td-block-label{font-size:.6rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--red);margin-bottom:.5rem;}
+.td-biblica{font-family:var(--I);font-style:italic;font-size:.95rem;color:rgba(255,255,255,.85);line-height:1.75;border-left:2px solid var(--red);padding-left:1rem;}
+.td-pts{margin-top:0;list-style:none;display:flex;flex-direction:column;gap:.55rem;}
+.td-pts li{display:flex;gap:.7rem;font-size:.87rem;color:rgba(255,255,255,.65);line-height:1.6;}
+.td-pts li::before{content:'—';color:var(--red);flex-shrink:0;}
+
+/* ── LIBROS ── */
+.libros{background:var(--off);padding:100px 5vw;}
+.libros-inner{max-width:1400px;margin:0 auto;}
+.libros-hdr{margin-bottom:48px;}
+.libros-h{font-family:var(--D);font-size:clamp(3rem,5vw,5rem);line-height:.88;letter-spacing:.02em;color:var(--black);}
+.libros-h .red{color:var(--red);}
+.sec-label-lt{font-size:.67rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--red);}
+.libros-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(0,0,0,.08);}
+.libro{text-decoration:none;display:flex;flex-direction:column;background:var(--white);transition:all .3s;border-top:3px solid transparent;}
+.libro:hover,.libro:focus-visible{border-top-color:var(--red);}
+.libro:hover .libro-img img{transform:scale(1.04);}
+.libro-img{aspect-ratio:1/1;overflow:hidden;background:#e8e6e1;}
+.libro-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s;}
+.libro-body{padding:1.5rem;}
+.libro-num{font-family:var(--D);font-size:.78rem;color:var(--red);letter-spacing:.08em;margin-bottom:.3rem;}
+.libro-title{font-family:var(--D);font-size:1.3rem;letter-spacing:.03em;color:var(--black);line-height:1.1;margin-bottom:.55rem;}
+.libro-desc{font-size:.8rem;color:rgba(0,0,0,.55);line-height:1.65;margin-bottom:.65rem;}
+.libro-link{font-size:.65rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(0,0,0,.4);display:flex;align-items:center;gap:.35rem;transition:color .2s;}
+.libro:hover .libro-link{color:var(--red);}
+.libro-link::after{content:'↗';}
+
+/* ── AUDIENCIAS ── */
+.audiencias{background:var(--blue);padding:100px 5vw;}
+.aud-inner{max-width:1400px;margin:0 auto;}
+.aud-label{font-size:.67rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.7);}
+.aud-h{font-family:var(--D);font-size:clamp(3rem,6vw,6.5rem);line-height:.85;letter-spacing:.02em;color:var(--white);margin:.5rem 0 56px;}
+.aud-h .out{-webkit-text-stroke:2px rgba(255,255,255,.45);color:transparent;}
+.aud-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.12);}
+.aud-card{background:var(--blue);padding:2.25rem 1.5rem;display:flex;flex-direction:column;gap:.7rem;transition:background .2s;}
+.aud-card:hover{background:var(--blue-dark);}
+.aud-icon{font-size:1.6rem;}
+.aud-title{font-family:var(--D);font-size:1.25rem;letter-spacing:.04em;color:var(--white);line-height:1.1;}
+.aud-txt{font-size:.82rem;color:rgba(255,255,255,.72);line-height:1.7;}
+
+/* ── PROCESO ── */
+.proceso{padding:100px 5vw;background:var(--black2);border-top:1px solid rgba(255,255,255,.05);}
+.proceso-inner{max-width:1400px;margin:0 auto;}
+.proceso-hdr{margin-bottom:56px;}
+.proceso-h{font-family:var(--D);font-size:clamp(2.5rem,4.5vw,4rem);line-height:.9;letter-spacing:.02em;color:var(--white);margin:.4rem 0 0;}
+.proceso-h .red{color:var(--red);}
+.proceso-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.06);}
+.paso{background:var(--black2);padding:2rem 1.5rem;display:flex;flex-direction:column;gap:.75rem;border-top:2px solid rgba(255,255,255,.07);transition:border-color .2s;}
+.paso:hover{border-top-color:var(--red);}
+.paso-num{font-family:var(--D);font-size:3.5rem;line-height:1;color:rgba(255,255,255,.08);}
+.paso-title{font-family:var(--D);font-size:1.15rem;letter-spacing:.04em;color:var(--white);line-height:1.1;}
+.paso-desc{font-size:.84rem;color:rgba(255,255,255,.62);line-height:1.7;}
+
+/* ── INVITACION ── */
+.invitacion{padding:100px 5vw;max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
+.inv-left{display:flex;flex-direction:column;gap:1.4rem;}
+.inv-big{font-family:var(--D);font-size:clamp(3.5rem,6.5vw,7rem);line-height:.85;letter-spacing:.02em;color:var(--white);}
+.inv-big .red{color:var(--red);}
+.inv-big .out{-webkit-text-stroke:1.5px rgba(255,255,255,.3);color:transparent;}
+.inv-sub{font-size:.94rem;color:rgba(255,255,255,.65);line-height:1.8;max-width:40ch;}
+.inv-q{border-left:3px solid var(--red);padding-left:1rem;font-family:var(--I);font-style:italic;font-size:.95rem;color:rgba(255,255,255,.65);line-height:1.65;}
+.inv-soc{display:flex;flex-wrap:wrap;gap:.4rem;}
+.soc{font-size:.67rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.15);padding:.32rem .75rem;text-decoration:none;transition:all .2s;}
+.soc:hover{border-color:var(--red);color:var(--red);}
+.inv-form-wrap{background:var(--black2);border:1px solid rgba(255,255,255,.07);padding:2.5rem;}
+.ift{font-family:var(--D);font-size:2rem;letter-spacing:.04em;color:var(--white);margin-bottom:1.5rem;}
+.ift span{color:var(--red);}
+.fg{display:flex;flex-direction:column;gap:.3rem;margin-bottom:.85rem;}
+.fg label{font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6);}
+.fg input,.fg textarea,.fg select{font-family:var(--B);font-size:.87rem;color:var(--white);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);padding:.58rem .82rem;outline:none;transition:border-color .2s;width:100%;}
+.fg input:focus,.fg textarea:focus,.fg select:focus{border-color:var(--red);}
+.fg select option{background:var(--black2);}
+.fg textarea{resize:vertical;min-height:80px;}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;}
+.fsub{width:100%;background:var(--red);color:var(--white);border:none;padding:.92rem;font-family:var(--B);font-size:.76rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;margin-top:.4rem;transition:background .2s;}
+.fsub:hover{background:var(--red-dark);}
+.fsub:disabled{opacity:.6;cursor:not-allowed;}
+.fstatus{padding:.75rem;font-size:.82rem;margin-top:.5rem;display:none;}
+.fstatus.sending{display:block;color:rgba(255,255,255,.6);background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);}
+.fstatus.success{display:block;color:#5FCF80;background:rgba(95,207,128,.07);border:1px solid rgba(95,207,128,.2);}
+.fstatus.error{display:block;color:#E87070;background:rgba(232,112,112,.07);border:1px solid rgba(232,112,112,.2);}
+.fstatus.unconfigured{display:block;color:rgba(255,220,100,.9);background:rgba(255,220,100,.06);border:1px solid rgba(255,220,100,.2);}
+.fok{display:none;text-align:center;padding:3rem 0;}
+.fok-icon{font-size:2.5rem;margin-bottom:.65rem;}
+.fok-t{font-family:var(--D);font-size:1.8rem;letter-spacing:.04em;color:var(--white);}
+.fok-s{font-size:.84rem;color:rgba(255,255,255,.55);margin-top:.4rem;}
+
+/* ── FOOTER ── */
+footer{background:#070707;border-top:1px solid rgba(255,255,255,.04);padding:3rem 5vw;}
+.foot-top{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:2rem;margin-bottom:2rem;}
+.foot-brand .fn{font-family:var(--D);font-size:1.6rem;letter-spacing:.07em;color:var(--white);}
+.foot-brand .ft{font-family:var(--I);font-style:italic;font-size:.85rem;color:var(--red);margin-top:.2rem;}
+.foot-nav{display:flex;gap:1.5rem;flex-wrap:wrap;}
+.foot-nav a{font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);text-decoration:none;transition:color .2s;}
+.foot-nav a:hover{color:var(--white);}
+.foot-bot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;border-top:1px solid rgba(255,255,255,.04);padding-top:1.5rem;}
+.foot-copy{font-size:.62rem;color:rgba(255,255,255,.25);letter-spacing:.06em;}
+.foot-bar{width:36px;height:3px;background:var(--red);}
+
+/* ── ANIMATIONS ── */
+.fu{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;}
+.fu.vis{opacity:1;transform:translateY(0);}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}.d5{transition-delay:.5s}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1050px){
+  .creds{grid-template-columns:1fr;}
+  .temas-hdr{grid-template-columns:1fr;}
+  .min-strip-inner{grid-template-columns:repeat(3,1fr);}
+  .aud-grid{grid-template-columns:1fr 1fr;}
+  .invitacion{grid-template-columns:1fr;}
+  .libros-grid{grid-template-columns:repeat(3,1fr);}
+  .proceso-grid{grid-template-columns:1fr 1fr;}
+  .test-grid{grid-template-columns:1fr;}
+}
+@media(max-width:700px){
+  .nav-links{display:none;}
+  .nav-hamburger{display:flex;}
+  .sticky-cta{display:block;}
+  body{padding-bottom:52px;}
+  .hero-stats{display:none;}
+  .t-grid{grid-template-columns:1fr;}
+  .min-strip-inner{grid-template-columns:1fr 1fr;}
+  .aud-grid{grid-template-columns:1fr 1fr;}
+  .libros-grid{grid-template-columns:1fr;}
+  .frow{grid-template-columns:1fr;}
+  .td-grid{grid-template-columns:1fr;}
+  .hero-h1{font-size:clamp(3.5rem,14vw,10rem);}
+  .hero-tagline{color:rgba(255,255,255,.92);}
+  .proceso-grid{grid-template-columns:1fr;}
+  .ticker{display:none;}
+}
+</style>
+</head>
+<body>
+
+<!-- Mobile sticky CTA -->
+<a class="sticky-cta" href="#invitacion">Solicitar invitación →</a>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Navegación principal">
+  <div class="nav-left">
+    <img class="nav-logo" src="https://horizonte.cristoesmejor.com/wp-content/uploads/elementor/thumbs/LogoKike-ql5xl8wu1scoer3gjrv3atib4jv8kilsmaz8qyqgjg.png" alt="Logo Kike Torres" width="90" height="30" decoding="async" onerror="this.style.display='none'">
+    <span class="nav-name">KIKE TORRES</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#temas">Temas</a></li>
+    <li><a href="#libros">Libros</a></li>
+    <li><a href="#audiencias">Audiencias</a></li>
+    <li><a href="#invitacion" class="nav-cta">Solicitar invitación</a></li>
+  </ul>
+  <!-- Hamburger mobile -->
+  <button class="nav-hamburger" id="navHamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMobileMenu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu -->
+<div class="nav-mobile-menu" id="navMobileMenu" role="dialog" aria-label="Menú de navegación">
+  <a href="#temas" class="nav-mobile-link">Temas</a>
+  <a href="#libros" class="nav-mobile-link">Libros</a>
+  <a href="#audiencias" class="nav-mobile-link">Audiencias</a>
+  <a href="#invitacion" class="nav-mobile-link">Solicitar invitación →</a>
+</div>
+
+<!-- HERO FULLSCREEN -->
+<header class="hero">
+  <div class="hero-bg">
+    <img src="https://horizonte.cristoesmejor.com/wp-content/uploads/2023/10/kike1.jpg" alt="Pastor Kike Torres predicando" width="1280" height="853" fetchpriority="high">
+    <div class="hero-overlay" aria-hidden="true"></div>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Pastor · Consejero Bíblico Certificado · Autor</p>
+    <h1 class="hero-h1">
+      <span>KIKE</span><br>
+      <span class="red">TORRES</span>
+    </h1>
+    <p class="hero-tagline">Invita a Kike Torres a predicar en tu iglesia, conferencia o retiro con mensajes bíblicos que confrontan, consuelan y guían el alma hacia Cristo.</p>
+    <div class="hero-pills" aria-label="Credenciales">
+      <span class="pill">Consejero ACBC</span>
+      <span class="pill">Plantador de iglesias</span>
+      <span class="pill">Fundador Con Tu Consejo</span>
+      <span class="pill">Comunidad 6:4</span>
+      <span class="pill">Querétaro, México</span>
+    </div>
+    <div class="hero-btns">
+      <a href="#temas" class="btn-r">Ver temas de conferencia</a>
+      <a href="#invitacion" class="btn-o">Solicitar invitación</a>
+    </div>
+  </div>
+  <div class="hero-stats" aria-hidden="true">
+    <div class="hstat"><div class="hstat-n">2010</div><div class="hstat-l">Año del llamado pastoral</div></div>
+    <div class="hstat"><div class="hstat-n">#1</div><div class="hstat-l">Mexicano certificado ACBC</div></div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true"><div class="scroll-line"></div><span class="scroll-txt">Scroll</span></div>
+</header>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="tick-item">PASTOR</span><span class="tick-dot"> · </span>
+    <span class="tick-item">CONSEJERO BÍBLICO</span><span class="tick-dot"> · </span>
+    <span class="tick-item">AUTOR</span><span class="tick-dot"> · </span>
+    <span class="tick-item">DE CRISTO EN ADELANTE</span><span class="tick-dot"> · </span>
+    <span class="tick-item">CRISTO ES MEJOR</span><span class="tick-dot"> · </span>
+    <span class="tick-item">PREDICADOR EXPOSITIVO</span><span class="tick-dot"> · </span>
+    <span class="tick-item">PLANTADOR DE IGLESIAS</span><span class="tick-dot"> · </span>
+    <span class="tick-item">PASTOR</span><span class="tick-dot"> · </span>
+    <span class="tick-item">CONSEJERO BÍBLICO</span><span class="tick-dot"> · </span>
+    <span class="tick-item">AUTOR</span><span class="tick-dot"> · </span>
+    <span class="tick-item">DE CRISTO EN ADELANTE</span><span class="tick-dot"> · </span>
+    <span class="tick-item">CRISTO ES MEJOR</span><span class="tick-dot"> · </span>
+    <span class="tick-item">PREDICADOR EXPOSITIVO</span><span class="tick-dot"> · </span>
+    <span class="tick-item">PLANTADOR DE IGLESIAS</span><span class="tick-dot"> · </span>
+  </div>
+</div>
+
+<!-- CREDENCIALES -->
+<section class="creds" id="about" aria-labelledby="creds-heading">
+  <div class="creds-left">
+    <span class="sec-label fu">Acerca de Kike</span>
+    <h2 class="creds-title fu d1" id="creds-heading">+COMUNIÓN<br>CON ÉL, <span class="bl">COMUNICAR</span><br>DESDE ÉL<br><span class="out">A MÁS</span></h2>
+    <p class="creds-body fu d2">A los diecinueve años, Kike reconoció una verdad reveladora: <em>"Hay un Dios y no soy yo"</em>. Desde entonces se entregó al señorío de Jesucristo. En 2010 respondió al llamado pastoral y se formó en Faith Baptist Church. En 2012 se convirtió en el primer mexicano certificado por la ACBC. Actualmente sirve como pastor líder en Horizonte (Querétaro, México), predica internacionalmente, es presidente de la Coalición de Consejería Bíblica en México y cursa un Doctorado en el SEBTS. Casado con Paulina, padre de Christian.</p>
+    <div class="creds-quote fu d3">
+      <p>"+Intimar con Dios tranquilamente y procurando una vida así. +Instruir a su familia amándoles en el Señor. +Influenciar impulsando a otros estratégicamente. +Invertir generosamente en el Reino. +Invitar a otros a volverse a Dios."</p>
+    </div>
+    <div class="creds-llamado fu d4">
+      <div class="llamado-title">5 Reglas de vida — Salmo 27:8</div>
+      <ul class="llamado-list">
+        <li>Atiende a Dios en lo privado</li>
+        <li>Escucha a Dios en su Palabra</li>
+        <li>Intencionalmente sométete a Su Reino</li>
+        <li>Ora como si todo dependiera de Dios</li>
+        <li>Ubica oportunidades para darte a otros y hazlo</li>
+      </ul>
+    </div>
+  </div>
+  <div class="creds-right fu d2" aria-label="Datos del ministerio">
+    <div class="cred-box blue"><div class="cred-n">2010</div><div class="cred-l">Año del llamado pastoral</div></div>
+    <div class="cred-box"><div class="cred-n">#1</div><div class="cred-l">Mexicano certificado ACBC</div></div>
+    <div class="cred-box"><div class="cred-n">3</div><div class="cred-l">Libros publicados</div></div>
+    <div class="cred-box red"><div class="cred-n">LatAm</div><div class="cred-l">Alcance ministerial</div></div>
+  </div>
+</section>
+
+<!-- VIDEO
+     ══════════════════════════════════════════════
+     Para activar el video, reemplaza VIDEO_ID
+     con el ID real del video de YouTube.
+     Ejemplo: si el URL es youtube.com/watch?v=abc123
+     entonces VIDEO_ID = "abc123"
+     ══════════════════════════════════════════════ -->
+<section class="video-section" aria-labelledby="vid-heading">
+  <div class="vid-hdr fu">
+    <span class="sec-label-dk">Escúchalo predicar</span>
+    <h2 class="vid-h" id="vid-heading">MIRA UN MENSAJE <span class="red">RECIENTE</span></h2>
+  </div>
+  <div class="vid-embed-wrap fu d1" id="vidWrap">
+    <!-- El video se muestra automáticamente si VIDEO_ID tiene valor (ver JS al final) -->
+    <div class="vid-placeholder" id="vidPlaceholder">
+      <div class="vid-play" aria-hidden="true">▶</div>
+      <p>Video próximamente — configura VIDEO_ID en el JS</p>
+    </div>
+  </div>
+  <div class="vid-cta fu d2">
+    <a href="https://www.youtube.com/@HorizonteCristoesmejor" target="_blank" rel="noopener" class="btn-o" style="display:inline-block;">Ver más mensajes en YouTube →</a>
+  </div>
+</section>
+
+<!-- TESTIMONIOS
+     ══════════════════════════════════════════════
+     PENDIENTE DE CONTENIDO REAL
+     Esta sección está lista pero no debe
+     publicarse con placeholders. Cuando tengas
+     testimonios reales de pastores o líderes,
+     reemplaza los textos y descomenta el grid.
+     ══════════════════════════════════════════════ -->
+<section class="testimonios" aria-labelledby="test-heading">
+  <div class="test-inner">
+    <div class="test-hdr fu">
+      <span class="sec-label">Pastores y líderes</span>
+      <h2 class="test-h" id="test-heading">VOCES DE <span class="red">PASTORES</span><br>Y LÍDERES</h2>
+    </div>
+    <!-- REEMPLAZAR con testimonios reales antes de publicar -->
+    <p class="test-pending fu d1">Próximamente: testimonios de pastores y líderes que han recibido a Kike en sus iglesias y conferencias.</p>
+
+    <!-- DESCOMENTAR y editar cuando tengas testimonios reales:
+    <div class="test-grid">
+      <div class="test-card">
+        <div class="test-quote-mark" aria-hidden="true">"</div>
+        <p class="test-body">Testimonio real del pastor o líder aquí.</p>
+        <div class="test-author">
+          <span class="test-name">Nombre del pastor</span>
+          <span class="test-role">Iglesia / Ciudad</span>
+        </div>
+      </div>
+      <div class="test-card">
+        <div class="test-quote-mark" aria-hidden="true">"</div>
+        <p class="test-body">Testimonio real del pastor o líder aquí.</p>
+        <div class="test-author">
+          <span class="test-name">Nombre del pastor</span>
+          <span class="test-role">Iglesia / Ciudad</span>
+        </div>
+      </div>
+      <div class="test-card">
+        <div class="test-quote-mark" aria-hidden="true">"</div>
+        <p class="test-body">Testimonio real del pastor o líder aquí.</p>
+        <div class="test-author">
+          <span class="test-name">Nombre del pastor</span>
+          <span class="test-role">Iglesia / Ciudad</span>
+        </div>
+      </div>
+    </div>
+    -->
+  </div>
+</section>
+
+<!-- MINISTERIOS -->
+<div class="min-strip" role="navigation" aria-label="Ministerios de Kike Torres">
+  <div class="min-strip-inner">
+    <a class="min-item fu" href="https://horizonte.cristoesmejor.com/" target="_blank" rel="noopener">
+      <div class="min-n">01</div><div class="min-name">CRISTO ES MEJOR</div><div class="min-arr" aria-hidden="true">→</div>
+    </a>
+    <a class="min-item fu d1" href="https://www.contuconsejo.com/" target="_blank" rel="noopener">
+      <div class="min-n">02</div><div class="min-name">CON TU CONSEJO</div><div class="min-arr" aria-hidden="true">→</div>
+    </a>
+    <a class="min-item fu d2" href="https://www.sebam.mx/" target="_blank" rel="noopener">
+      <div class="min-n">03</div><div class="min-name">SEBAM</div><div class="min-arr" aria-hidden="true">→</div>
+    </a>
+    <a class="min-item fu d3" href="https://horizonte.cristoesmejor.com/bernabe/" target="_blank" rel="noopener">
+      <div class="min-n">04</div><div class="min-name">BERNABÉ</div><div class="min-arr" aria-hidden="true">→</div>
+    </a>
+    <a class="min-item fu d4" href="https://64fellowship.com/es/sobre-nosotros/" target="_blank" rel="noopener">
+      <div class="min-n">05</div><div class="min-name">COMUNIDAD 6:4</div><div class="min-arr" aria-hidden="true">→</div>
+    </a>
+    <a class="min-item fu d5" href="https://www.consejero.org/" target="_blank" rel="noopener">
+      <div class="min-n">06</div><div class="min-name">COALICIÓN CONSEJERÍA</div><div class="min-arr" aria-hidden="true">→</div>
+    </a>
+  </div>
+</div>
+
+<!-- TEMAS -->
+<section class="temas" id="temas" aria-labelledby="temas-heading">
+  <div class="temas-hdr">
+    <div class="fu">
+      <span class="sec-label-dk">Temas de conferencia</span>
+      <h2 class="temas-h" id="temas-heading">SESIONES<br>PARA <span class="red">LÍDERES</span><br><span class="out">QUE PERMANECEN</span></h2>
+    </div>
+    <p class="temas-sub fu d1">Una serie de 4 sesiones diseñada para pastores, líderes ministeriales y equipos que quieren crecer, mantenerse sanos y dejar un legado real. Cada sesión nace de la Escritura y de años de acompañar líderes reales. Selecciona un tema para ver el detalle completo.</p>
+  </div>
+  <div class="t-filters" role="group" aria-label="Filtrar temas por categoría">
+    <button class="tf on" data-f="all">Todos</button>
+    <button class="tf" data-f="liderazgo">Liderazgo</button>
+    <button class="tf" data-f="formacion">Formación de equipos</button>
+    <button class="tf" data-f="crisis">Crisis y llamado</button>
+    <button class="tf" data-f="legado">Legado</button>
+  </div>
+  <div class="t-grid" id="tGrid">
+    <div class="t-card fu" data-cat="liderazgo" data-i="0" role="button" tabindex="0" aria-expanded="false"><div class="t-card-bg"></div><div class="t-card-overlay"></div><div class="t-card-content"><div class="t-num">01</div><div class="t-cat-tag">Liderazgo</div><div class="t-title">POR QUÉ CAEN LOS LÍDERES</div><div class="t-verse">1 Corintios 9:24–27</div><div class="t-cta"><div class="t-icon" aria-hidden="true">+</div>Ver más</div></div></div>
+    <div class="t-card fu d1" data-cat="formacion" data-i="1" role="button" tabindex="0" aria-expanded="false"><div class="t-card-bg"></div><div class="t-card-overlay"></div><div class="t-card-content"><div class="t-num">02</div><div class="t-cat-tag">Formación de equipos</div><div class="t-title">LÍDER CORRECTO, ROL CORRECTO</div><div class="t-verse">Efesios 4:11</div><div class="t-cta"><div class="t-icon" aria-hidden="true">+</div>Ver más</div></div></div>
+    <div class="t-card fu d2" data-cat="crisis" data-i="2" role="button" tabindex="0" aria-expanded="false"><div class="t-card-bg"></div><div class="t-card-overlay"></div><div class="t-card-content"><div class="t-num">03</div><div class="t-cat-tag">Crisis y llamado</div><div class="t-title">UN PROBLEMA, UN FUNERAL Y 2 COSAS A NO OLVIDAR</div><div class="t-verse">Génesis 42:9</div><div class="t-cta"><div class="t-icon" aria-hidden="true">+</div>Ver más</div></div></div>
+    <div class="t-card fu d3" data-cat="legado" data-i="3" role="button" tabindex="0" aria-expanded="false"><div class="t-card-bg"></div><div class="t-card-overlay"></div><div class="t-card-content"><div class="t-num">04</div><div class="t-cat-tag">Legado</div><div class="t-title">DE INTIMIDAD A LEGADO</div><div class="t-verse">Salmo 128:1–6</div><div class="t-cta"><div class="t-icon" aria-hidden="true">+</div>Ver más</div></div></div>
+  </div>
+</section>
+
+<!-- LIBROS -->
+<section class="libros" id="libros" aria-labelledby="libros-heading">
+  <div class="libros-inner">
+    <div class="libros-hdr fu">
+      <span class="sec-label-lt">Recursos</span>
+      <h2 class="libros-h" id="libros-heading">SUS <span class="red">LIBROS</span></h2>
+    </div>
+    <div class="libros-grid">
+      <a class="libro fu" href="https://www.amazon.com.mx/Una-Nueva-Vida-Cristo-Adelante/dp/082974276X" target="_blank" rel="noopener">
+        <div class="libro-img"><img src="https://horizonte.cristoesmejor.com/wp-content/uploads/2024/03/Portadaslibroskike_Mesa-de-trabajo-1-300x300.png" alt="Libro: Una nueva vida de Cristo en Adelante" width="300" height="300" loading="lazy" decoding="async"></div>
+        <div class="libro-body"><div class="libro-num">01</div><div class="libro-title">UNA NUEVA VIDA DE CRISTO EN ADELANTE</div><p class="libro-desc">Muchas personas buscan ese "momento" que rompa el círculo destructivo de su vida. Kike Torres muestra que ese acontecimiento ya sucedió en Cristo — y que ya puedes iniciar tu aventura de fe.</p><div class="libro-link">Ver en Amazon</div></div>
+      </a>
+      <a class="libro fu d1" href="https://www.amazon.com.mx/Dios-MIS-Desiertos-Tormentas-Depresión/dp/1400244463/" target="_blank" rel="noopener">
+        <div class="libro-img"><img src="https://horizonte.cristoesmejor.com/wp-content/uploads/2024/03/Portadaslibroskike-02-1-300x300.png" alt="Libro: Dios en mis desiertos y tormentas" width="300" height="300" loading="lazy" decoding="async"></div>
+        <div class="libro-body"><div class="libro-num">02</div><div class="libro-title">DIOS EN MIS DESIERTOS Y TORMENTAS</div><p class="libro-desc">Una jornada de 21 días para ver a Dios en medio del desánimo, depresión, angustia y ansiedad. Escrito desde la experiencia personal de Kike con la depresión.</p><div class="libro-link">Ver en Amazon</div></div>
+      </a>
+      <a class="libro fu d2" href="https://www.amazon.com.mx/drama-ama-ofenderte-indignarte-victimizarte/dp/6072957250/" target="_blank" rel="noopener">
+        <div class="libro-img"><img src="https://horizonte.cristoesmejor.com/wp-content/uploads/2024/03/Portadaslibroskike-03-1-300x300.png" alt="Libro: El drama no ama" width="300" height="300" loading="lazy" decoding="async"></div>
+        <div class="libro-body"><div class="libro-num">03</div><div class="libro-title">EL DRAMA NO AMA</div><p class="libro-desc">En momentos de frustración e impaciencia podemos correr a Cristo como modelo de amor, misericordia y gracia. Un libro para vivir libre de amargura y ofensa.</p><div class="libro-link">Ver en Amazon</div></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIENCIAS -->
+<section class="audiencias" id="audiencias" aria-labelledby="aud-heading">
+  <div class="aud-inner">
+    <p class="aud-label fu">¿Para quién predica?</p>
+    <h2 class="aud-h fu d1" id="aud-heading">UN MENSAJE<br>PARA CADA<br><span class="out">CONTEXTO</span></h2>
+    <div class="aud-grid">
+      <div class="aud-card fu"><div class="aud-icon" aria-hidden="true">⛪</div><div class="aud-title">IGLESIAS LOCALES</div><p class="aud-txt">Aniversarios, retiros, semanas de énfasis espiritual, conferencias de hombres o mujeres y campañas evangelísticas.</p></div>
+      <div class="aud-card fu d1"><div class="aud-icon" aria-hidden="true">🎓</div><div class="aud-title">SEMINARIOS</div><p class="aud-txt">Formación de pastores y líderes con énfasis en consejería bíblica, predicación expositiva e intimidad con Dios.</p></div>
+      <div class="aud-card fu d2"><div class="aud-icon" aria-hidden="true">👥</div><div class="aud-title">CONFERENCIAS PASTORALES</div><p class="aud-txt">Cuidado del alma del pastor, liderazgo saludable, prevención del agotamiento y vida familiar del líder.</p></div>
+      <div class="aud-card fu d3"><div class="aud-icon" aria-hidden="true">✝️</div><div class="aud-title">EVENTOS EVANGELÍSTICOS</div><p class="aud-txt">Mensajes de llamado al arrepentimiento y la fe, accesibles para el que aún no cree en Cristo.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section class="proceso" aria-labelledby="proceso-heading">
+  <div class="proceso-inner">
+    <div class="proceso-hdr fu">
+      <span class="sec-label">¿Cómo funciona?</span>
+      <h2 class="proceso-h" id="proceso-heading">CÓMO FUNCIONA <span class="red">EL PROCESO</span></h2>
+    </div>
+    <div class="proceso-grid">
+      <div class="paso fu"><div class="paso-num" aria-hidden="true">01</div><div class="paso-title">ENVÍAS LA SOLICITUD</div><p class="paso-desc">Cuéntanos fecha, ciudad, tipo de evento y el contexto de tu comunidad a través del formulario de esta página.</p></div>
+      <div class="paso fu d1"><div class="paso-num" aria-hidden="true">02</div><div class="paso-title">REVISAMOS DISPONIBILIDAD</div><p class="paso-desc">El equipo del ministerio confirma si la fecha y el formato son viables para el calendario de Kike.</p></div>
+      <div class="paso fu d2"><div class="paso-num" aria-hidden="true">03</div><div class="paso-title">AFINAMOS EL ENFOQUE</div><p class="paso-desc">Definimos tema, audiencia, necesidades pastorales y detalles logísticos para servir con claridad.</p></div>
+      <div class="paso fu d3"><div class="paso-num" aria-hidden="true">04</div><div class="paso-title">CONFIRMAMOS LA INVITACIÓN</div><p class="paso-desc">Cerramos todos los detalles para que el evento sea una bendición real para tu iglesia o comunidad.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- INVITACION -->
+<section class="invitacion" id="invitacion" aria-labelledby="inv-heading">
+  <div class="inv-left">
+    <span class="sec-label fu">Solicitar invitación</span>
+    <div class="inv-big fu d1" role="heading" aria-level="2" id="inv-heading">INVITA<br>A <span class="red">KIKE</span><br><span class="out">TORRES</span></div>
+    <p class="inv-sub fu d2">Llena el formulario con los detalles de tu evento. El equipo del ministerio se pondrá en contacto contigo para confirmar disponibilidad y definir el enfoque.</p>
+    <blockquote class="inv-q fu d3">"Kike Torres destaca como un comunicador apasionado de la Palabra, combinando sólido conocimiento teológico con un profundo amor por las Escrituras."</blockquote>
+    <div class="inv-soc fu d4" aria-label="Redes sociales">
+      <a class="soc" href="https://www.instagram.com/pastorreskike/" target="_blank" rel="noopener">Instagram</a>
+      <a class="soc" href="https://www.facebook.com/pastorreskike" target="_blank" rel="noopener">Facebook</a>
+      <a class="soc" href="https://www.youtube.com/@HorizonteCristoesmejor" target="_blank" rel="noopener">YouTube</a>
+      <a class="soc" href="https://www.tiktok.com/@pastorreskike" target="_blank" rel="noopener">TikTok</a>
+      <a class="soc" href="https://twitter.com/pastorreskike" target="_blank" rel="noopener">Twitter / X</a>
+    </div>
+  </div>
+  <div class="inv-form-wrap fu d2">
+    <div class="ift">SOLICITUD DE <span>INVITACIÓN</span></div>
+    <form id="iForm" novalidate>
+      <div class="frow">
+        <div class="fg"><label for="f-nombre">Nombre</label><input id="f-nombre" type="text" name="nombre" placeholder="Tu nombre completo" required autocomplete="name"></div>
+        <div class="fg"><label for="f-email">Correo electrónico</label><input id="f-email" type="email" name="email" placeholder="tu@correo.com" required autocomplete="email"></div>
+      </div>
+      <div class="frow">
+        <div class="fg"><label for="f-fecha">Fecha del evento</label><input id="f-fecha" type="date" name="fecha"></div>
+        <div class="fg"><label for="f-ubicacion">Ubicación</label><input id="f-ubicacion" type="text" name="ubicacion" placeholder="Ciudad, país"></div>
+      </div>
+      <div class="fg"><label for="f-tipo">Tipo de evento</label>
+        <select id="f-tipo" name="tipo_evento">
+          <option value="">Selecciona una opción</option>
+          <option>Conferencia de iglesia</option>
+          <option>Retiro pastoral</option>
+          <option>Seminario / escuela</option>
+          <option>Evento evangelístico</option>
+          <option>Conferencia de consejería</option>
+          <option>Otro</option>
+        </select>
+      </div>
+      <div class="fg"><label for="f-desc">Breve descripción</label><textarea id="f-desc" name="descripcion" placeholder="Cuéntanos sobre tu evento, el contexto de tu comunidad y lo que estás buscando..."></textarea></div>
+      <div class="fstatus" id="fStatus" role="status" aria-live="polite"></div>
+      <button type="submit" class="fsub" id="fBtn">Enviar solicitud →</button>
+    </form>
+    <div class="fok" id="fOk" role="status">
+      <div class="fok-icon" aria-hidden="true">✉️</div>
+      <div class="fok-t">¡SOLICITUD ENVIADA!</div>
+      <div class="fok-s">El equipo del pastor Kike se pondrá en contacto contigo pronto.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer role="contentinfo">
+  <div class="foot-top">
+    <div class="foot-brand"><div class="fn">KIKE TORRES</div><div class="ft">De Cristo en adelante</div></div>
+    <nav class="foot-nav" aria-label="Links del ministerio">
+      <a href="https://horizonte.cristoesmejor.com/" target="_blank" rel="noopener">Cristo es Mejor</a>
+      <a href="https://www.contuconsejo.com/" target="_blank" rel="noopener">Con Tu Consejo</a>
+      <a href="https://www.sebam.mx/" target="_blank" rel="noopener">SEBAM</a>
+      <a href="https://horizonte.cristoesmejor.com/recursos" target="_blank" rel="noopener">Recursos</a>
+      <a href="https://twitter.com/pastorreskike" target="_blank" rel="noopener">Twitter / X</a>
+    </nav>
+  </div>
+  <div class="foot-bot">
+    <span class="foot-copy">© 2026 MINISTERIO CRISTO ES MEJOR · QUERÉTARO, MÉXICO</span>
+    <div class="foot-bar" aria-hidden="true"></div>
+  </div>
+</footer>
+
+<script>
+/* ══════════════════════════════════════════════
+   CONFIGURACIÓN — editar antes de publicar
+   ══════════════════════════════════════════════ */
+
+/* VIDEO — pega el ID del video de YouTube aquí
+   Ejemplo: si el URL es youtube.com/watch?v=abc123 → VIDEO_ID = "abc123"
+   Déjalo vacío ("") para mostrar el placeholder */
+const VIDEO_ID = "";
+
+/* FORMULARIO — pega aquí el endpoint de tu servicio de formularios
+   Opciones:
+   · Formspree:      https://formspree.io/f/TU_ID
+   · Netlify Forms:  usa el atributo netlify en el form (sin fetch)
+   · Make/Zapier:    usa el webhook URL que te dan
+   Déjalo vacío ("") para mostrar aviso de no configurado */
+const FORM_ENDPOINT = "";
+
+/* ══════════════════════════════════════════════
+   FIN DE CONFIGURACIÓN — no editar abajo
+   ══════════════════════════════════════════════ */
+
+/* nav scroll */
+window.addEventListener('scroll',()=>{
+  document.getElementById('nav').classList.toggle('scrolled',window.scrollY>60);
+},{passive:true});
+
+/* hamburger mobile */
+const ham=document.getElementById('navHamburger');
+const mob=document.getElementById('navMobileMenu');
+ham.addEventListener('click',()=>{
+  const open=mob.classList.toggle('open');
+  ham.classList.toggle('open',open);
+  ham.setAttribute('aria-expanded',open);
+});
+mob.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+  mob.classList.remove('open');
+  ham.classList.remove('open');
+  ham.setAttribute('aria-expanded','false');
+}));
+
+/* scroll animations */
+const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('vis');});},{threshold:.08});
+document.querySelectorAll('.fu').forEach(el=>obs.observe(el));
+
+/* video — muestra iframe si hay VIDEO_ID, placeholder si no */
+if(VIDEO_ID){
+  const wrap=document.getElementById('vidWrap');
+  document.getElementById('vidPlaceholder').remove();
+  const ifr=document.createElement('iframe');
+  ifr.src=`https://www.youtube.com/embed/${VIDEO_ID}`;
+  ifr.title='Mensaje del pastor Kike Torres';
+  ifr.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
+  ifr.allowFullscreen=true;
+  ifr.loading='lazy';
+  wrap.appendChild(ifr);
+}
+
+/* topic data */
+const TD=[
+  {
+    title:"Por qué caen los líderes",verse:"1 Corintios 9:24–27",cat:"Liderazgo",dur:"60–75 min",fmt:"Conferencia pastoral / Retiro de líderes / Seminario",
+    biblica:'"¿No saben que los que corren en el estadio, todos en verdad corren, pero solo uno obtiene el premio? Corran de tal modo que ganen… golpeo mi cuerpo y lo hago mi esclavo, no sea que habiendo predicado a otros, yo mismo sea descalificado." (1 Corintios 9:24–27)',
+    meta:"Formar líderes que permanezcan sanos y firmes en el ministerio, priorizando intimidad con Dios, disciplina espiritual y descanso bíblico para no caer ni ser descalificados.",
+    pts:["La caída muchas veces no viene por falta de preparación, sino por descuidar lo esencial: el llamado primario es a intimidad, no a actividad.","El ministerio pastoral tiene dos piernas: la oración y el ministerio de la Palabra; si una falla, el líder cojea espiritualmente.","Un previo común a la caída es no reposar bíblicamente: el descanso no es lujo, es obediencia y protección para el alma."]
+  },
+  {
+    title:"Líder correcto, rol correcto",verse:"Efesios 4:11",cat:"Formación de equipos",dur:"60–90 min",fmt:"Conferencia pastoral / Taller de liderazgo / Retiro de equipo",
+    biblica:'"El mundo acostumbra desechar lo que está roto, pero Dios no tiende a usar a nadie que no haya roto primero." — Adrian Rogers',
+    meta:"Formar líderes que sepan escoger y formar equipos con sabiduría espiritual: gente correcta, en el rol correcto, con el corazón correcto.",
+    pts:["Es clave saber escoger: Dios usa personas, así que la selección de equipo es parte del liderazgo espiritual.","Antes de poner a alguien a servir en el nombre de Jesús, confirma que su relación con Jesús es real; si no, es demasiado arriesgado.","Un buen líder no solo elige talento: crea ecosistemas donde las personas practican sus dones y crecen con integridad, cultura y capacidad."]
+  },
+  {
+    title:"Un problema, un funeral y 2 cosas a no olvidar",verse:"Génesis 42:9",cat:"Crisis y llamado",dur:"45–60 min",fmt:"Conferencia pastoral / Retiro / Evento de cuidado",
+    biblica:'"José se acordó de los sueños que había tenido…" (Génesis 42:9, NBLA)',
+    meta:"Formar líderes que atraviesen crisis sin perder su llamado, cuidando su corazón del resentimiento y aprendiendo dependencia total de Dios.",
+    pts:["La mayor herida que dejó la crisis en muchos pastores fue el resentimiento; si no hay perdón, no habrá gracia para avanzar.","José tuvo que aprender lo que muchos líderes olvidamos rápido: dependencia total de Dios (para el alma, para tratar con otros y para los resultados).","Hay sueños que deben enterrarse: haz un funeral, llora, perdona… y levántate a cruzar a lo nuevo que Dios está haciendo."]
+  },
+  {
+    title:"De intimidad a legado",verse:"Salmo 128:1–6",cat:"Legado",dur:"60–75 min",fmt:"Conferencia pastoral / Retiro familiar / Evento de cierre",
+    biblica:'"Bienaventurado todo aquel que teme al Señor, que anda en Sus caminos… y veas a los hijos de tus hijos." (Salmo 128:1–6, NBLA)',
+    meta:"Transformar la manera de ver la vida: pasar de perseguir lo que el mundo promete (éxito, comodidad, control, imagen) a abrazar lo que Dios quiere (temor del Señor, caminos del Reino, obediencia), para que la intimidad con Dios se traduzca en un legado real: una casa bendecida y generaciones alcanzadas.",
+    pts:["El mundo promete bendición por rendimiento; Dios promete fruto por caminar en Sus caminos (temor del Señor + obediencia).","La intimidad con Dios no es un fin privado: es una raíz espiritual que inevitablemente se derrama en tu mesa, tu casa y tus hijos.","El legado no se hereda por discurso, sino por dirección: cuando Dios reina en ti, tu descendencia es alcanzada y bendecida."]
+  }
+];
+
+/* topic card interactions */
+let ap=null;
+function closeDetail(){
+  if(ap){ap.remove();ap=null;}
+  document.querySelectorAll('.t-card.on').forEach(c=>{c.classList.remove('on');c.setAttribute('aria-expanded','false');c.querySelector('.t-icon').textContent='+';});
+}
+function openDetail(card,i){
+  const d=TD[i];const g=document.getElementById('tGrid');
+  closeDetail();
+  card.classList.add('on');card.setAttribute('aria-expanded','true');card.querySelector('.t-icon').textContent='×';
+  ap=document.createElement('div');ap.className='t-detail vis';ap.setAttribute('role','region');ap.setAttribute('aria-label','Detalle: '+d.title);
+  const pts=d.pts.map(p=>`<li>${p}</li>`).join('');
+  ap.innerHTML=`<div class="td-grid"><div><div class="td-title">${d.title}</div><div class="td-verse">${d.verse}</div><div class="td-mi"><label>Categoría</label><span>${d.cat}</span></div><div class="td-mi"><label>Duración estimada</label><span>${d.dur}</span></div><div class="td-mi"><label>Formato ideal</label><span>${d.fmt}</span></div><button class="td-close" onclick="closeDetail()">← Cerrar detalle</button></div><div><div class="td-block"><div class="td-block-label">Enfoque bíblico</div><p class="td-biblica">${d.biblica}</p></div><div class="td-block"><div class="td-block-label">Meta de la sesión</div><p class="td-desc">${d.meta}</p></div><div class="td-block"><div class="td-block-label">Puntos a considerar</div><ul class="td-pts">${pts}</ul></div></div></div>`;
+  const cards=[...g.querySelectorAll('.t-card')];
+  const ci=cards.indexOf(card);
+  const cols=window.innerWidth<=700?1:2;
+  const rowEnd=ci+cols-(ci%cols);
+  const next=cards[rowEnd];
+  if(next)g.insertBefore(ap,next);else g.appendChild(ap);
+  setTimeout(()=>ap.scrollIntoView({behavior:'smooth',block:'nearest'}),80);
+}
+document.querySelectorAll('.t-card').forEach(c=>{
+  c.addEventListener('click',()=>{c.classList.contains('on')?closeDetail():openDetail(c,parseInt(c.dataset.i));});
+  c.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();c.classList.contains('on')?closeDetail():openDetail(c,parseInt(c.dataset.i));}});
+});
+
+/* filters */
+document.querySelectorAll('.tf').forEach(b=>{
+  b.addEventListener('click',()=>{
+    closeDetail();
+    document.querySelectorAll('.tf').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    const f=b.dataset.f;
+    document.querySelectorAll('.t-card').forEach(c=>{c.style.display=(f==='all'||c.dataset.cat===f)?'':'none';});
+  });
+});
+
+/* form */
+const fForm=document.getElementById('iForm');
+const fBtn=document.getElementById('fBtn');
+const fStatus=document.getElementById('fStatus');
+const fOk=document.getElementById('fOk');
+
+fForm.addEventListener('submit',async e=>{
+  e.preventDefault();
+  if(!FORM_ENDPOINT){
+    fStatus.className='fstatus unconfigured';
+    fStatus.textContent='El formulario aún no está conectado. Configura FORM_ENDPOINT al inicio del script para recibir solicitudes.';
+    return;
+  }
+  fBtn.disabled=true;fBtn.textContent='Enviando...';
+  fStatus.className='fstatus sending';fStatus.textContent='Enviando tu solicitud...';
+  const body=Object.fromEntries(new FormData(fForm).entries());
+  try{
+    const res=await fetch(FORM_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(body)});
+    if(res.ok){fForm.style.display='none';fStatus.style.display='none';fOk.style.display='block';}
+    else throw new Error('Error '+res.status);
+  }catch(err){
+    fBtn.disabled=false;fBtn.textContent='Enviar solicitud →';
+    fStatus.className='fstatus error';fStatus.textContent='Hubo un error al enviar. Intenta de nuevo o contáctanos directamente.';
+  }
+});
+</script>
+</body>
+</html>
